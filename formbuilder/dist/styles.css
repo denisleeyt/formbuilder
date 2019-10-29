@@ -1,0 +1,65 @@
+/*! Copyright@WSS */
+.styles__root___2qc0B {
+    background-color: #eee;
+    padding: 10px;
+    border: 3px solid #ccc;
+}
+
+.styles__submitBtn___3bCqe {
+    text-align: center;
+    width: 100%;
+}
+
+.styles__submitBtn___3bCqe span {
+    margin-right: 5px;
+    display: none;
+}
+
+.styles__hidden___1a3C9{
+    display: none;
+}
+
+.styles__submitBtn___3bCqe .styles__on___2MUcN {
+    display: block;
+}
+
+.styles__submitBtn___3bCqe .styles__off___2Yi3V {
+    display: none;
+}
+
+.styles__captchaInputDiv___1Y2bu {
+    margin-bottom: 20px;
+}
+
+.styles__captchaSecondLayer___PyKX5 {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.styles__capImg___2ee_s {
+    float: left;
+    margin-right: 10px;
+}
+
+.styles__clearBoth___3l6dl {
+    clear: both;
+}
+
+.styles__captcha___3VWfy{
+    width: 290px;
+}
+
+.styles__u_gid___36pvw{
+    display:none;
+}
+html{
+    box-sizing: border-box;
+    background-color: aliceblue;
+}
+
+body{
+    margin: 0;
+    font-size: 24px;
+}
+
+/*# sourceMappingURL=styles.css.map*/

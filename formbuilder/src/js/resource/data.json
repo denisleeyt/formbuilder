@@ -1,0 +1,333 @@
+﻿{
+    "projectName": "2019-form-template",
+    "rows": [
+        {
+            "items": [
+                {
+                    "id": 0,
+                    "type": "JCFreehtml",
+                    "width": 12,
+                    "showLabelName": false,
+                    "enLabelName": "Online Date",
+                    "chLabelName": "Online Date",
+                    "maxlength": 100,
+                    "validation": [
+                        {
+                            "type": "checkEmpty",
+                            "enValidMsg": "Please select online date",
+                            "chValidMsg": "Please select online date"
+                        }
+                    ],
+                    "serverValidation": [
+                        {
+                            "type": "checkEnName"
+                        }
+                    ],
+                    "enOptions": [],
+                    "chOptions": [],
+                    "enTop": "<div class='TopDescription'>Online and Offline Date</div>",
+                    "chTop": "",
+                    "enBottom": "",
+                    "chBottom": "",
+                    "others": {}
+                }]
+        },
+        {
+            "items": [
+                {
+                    "id": 1,
+                    "type": "WSSDatePicker",
+                    "width": 3,
+                    "showLabelName": false,
+                    "enLabelName": "Online Date",
+                    "chLabelName": "Online Date",
+                    "maxlength": 100,
+                    "validation": [
+                        {
+                            "type": "checkEmpty",
+                            "enValidMsg": "Please select online date",
+                            "chValidMsg": "Please select online date"
+                        }
+                    ],
+                    "serverValidation": [
+                        {
+                            "type": "checkEnName"
+                        }
+                    ],
+                    "enOptions": [],
+                    "chOptions": [],
+                    "enTop": "<div class='description'>Select Online Date</div>",
+                    "chTop": "",
+                    "enBottom": "",
+                    "chBottom": "",
+                    "others": {}
+                },
+                {
+                    "id": 2,
+                    "type": "WSSDatePicker",
+                    "width": 3,
+                    "showLabelName": false,
+                    "enLabelName": "Offline Date",
+                    "chLabelName": "Offline Date",
+                    "maxlength": 100,
+                    "validation": [
+                        {
+                            "type": "checkEmpty",
+                            "enValidMsg": "Please select offline date",
+                            "chValidMsg": "Please select offline date"
+                        }
+                    ],
+                    "serverValidation": [],
+                    "enOptions": [],
+                    "chOptions": [],
+                    "enTop": "<div class='description'>Select Offline Date</div>",
+                    "chTop": "",
+                    "enBottom": "",
+                    "chBottom": "",
+                    "others": {}
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "id": 3,
+                    "type": "WSSText",
+                    "width": 6,
+                    "showLabelName": true,
+                    "enLabelName": "Project Name",
+                    "chLabelName": "Project Name",
+                    "maxlength": 100,
+                    "validation": [
+                        {
+                            "type": "checkEmpty",
+                            "enValidMsg": "Please enter project name",
+                            "chValidMsg": "Please enter project name"
+                        }
+                    ],
+                    "serverValidation": [
+                        {
+                            "type": "checkEnName"
+                        }
+                    ],
+                    "enOptions": [],
+                    "chOptions": [],
+                    "enTop": "",
+                    "chTop": "",
+                    "enBottom": "",
+                    "chBottom": "",
+                    "others": {}
+                },
+                {
+                    "id": 4,
+                    "type": "JCRadio",
+                    "width": 6,
+                    "showLabelName": true,
+                    "enLabelName": "Job Type",
+                    "chLabelName": "Job Type",
+                    "maxlength": 2,
+                    "validation": [
+                        {
+                            "type": "checkIsChecked",
+                            "enValidMsg": "Please select your job type",
+                            "chValidMsg": "請輸入job type"
+                        }
+                    ],
+                    "serverValidation": [],
+                    "enOptions": [
+                        {
+                            "name": "Full-Time",
+                            "value": ""
+                        },
+                        {
+                            "name": "Part-Time",
+                            "value": ""
+                        },
+                        {
+                            "name": "Contract",
+                            "value": ""
+                        }
+                    ],
+                    "chOptions": [
+                        {
+                            "name": "Full-Time",
+                            "value": ""
+                        },
+                        {
+                            "name": "Part-Time",
+                            "value": ""
+                        },
+                        {
+                            "name": "Contract",
+                            "value": ""
+                        }
+                    ],
+                    "enTop": "",
+                    "chTop": "",
+                    "enBottom": "",
+                    "chBottom": "",
+                    "others": {}
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "id": 3,
+                    "type": "JCCheckbox",
+                    "width": 12,
+                    "showLabelName": true,
+                    "enLabelName": "hobbit",
+                    "chLabelName": "hobbit",
+                    "maxlength": 2,
+                    "validation": [
+                        {
+                            "type": "checkIsChecked",
+                            "enValidMsg": "Please select your hobbit",
+                            "chValidMsg": "請輸入hobbit"
+                        }
+                    ],
+                    "serverValidation": [],
+                    "enOptions": [
+                        {
+                            "name": "Basketball",
+                            "value": "A"
+                        },
+                        {
+                            "name": "Football",
+                            "value": "B"
+                        },
+                        {
+                            "name": "Tennis",
+                            "value": "C"
+                        }
+                    ],
+                    "chOptions": [
+                        {
+                            "name": "Basketball",
+                            "value": "A"
+                        },
+                        {
+                            "name": "Football",
+                            "value": "B"
+                        },
+                        {
+                            "name": "Tennis",
+                            "value": "C"
+                        }
+                    ],
+                    "enTop": "",
+                    "chTop": "",
+                    "enBottom": "",
+                    "chBottom": "",
+                    "others": {}
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "id": 4,
+                    "type": "JCTextarea",
+                    "width": 12,
+                    "showLabelName": false,
+                    "enLabelName": "Description",
+                    "chLabelName": "Description",
+                    "maxlength": 500,
+                    "validation": [
+                        {
+                            "type": "checkEmpty",
+                            "enValidMsg": "Please fill in your description",
+                            "chValidMsg": "請輸入description"
+                        }
+                    ],
+                    "serverValidation": [],
+                    "enOptions": [],
+                    "chOptions": [],
+                    "enTop": "",
+                    "chTop": "",
+                    "enBottom": "",
+                    "chBottom": "",
+                    "others": {
+                        "textareaRows": "4",
+                        "textareaClos": "50"
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "id": 5,
+                    "type": "SEmail",
+                    "width": 12,
+                    "showLabelName": true,
+                    "enLabelName": "Email",
+                    "chLabelName": "Email",
+                    "maxlength": 256,
+                    "validation": [],
+                    "serverValidation": [],
+                    "enOptions": [],
+                    "chOptions": [],
+                    "enTop": "",
+                    "chTop": "",
+                    "enBottom": "",
+                    "chBottom": "",
+                    "others": {}
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "id": 6,
+                    "type": "JCCaptcha",
+                    "width": 12,
+                    "showLabelName": true,
+                    "enLabelName": "Captcha",
+                    "chLabelName": "Captcha",
+                    "maxlength": 500,
+                    "validation": [
+                        {
+                            "type": "checkEmpty",
+                            "enValidMsg": "Please fill in Captcha",
+                            "chValidMsg": "請輸入Captcha"
+                        }
+                    ],
+                    "serverValidation": [],
+                    "enOptions": [],
+                    "chOptions": [],
+                    "enTop": "",
+                    "chTop": "",
+                    "enBottom": "",
+                    "chBottom": "",
+                    "others": {}
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "id": 7,
+                    "type": "JCSubmit",
+                    "width": 12,
+                    "showLabelName": true,
+                    "enLabelName": "Submit",
+                    "chLabelName": "遞交",
+                    "maxlength": 100,
+                    "validation": [],
+                    "serverValidation": [],
+                    "enValidMsg": [],
+                    "chValidMsg": [],
+                    "enOptions": [],
+                    "chOptions": [],
+                    "enTop": "",
+                    "chTop": "",
+                    "enBottom": "",
+                    "chBottom": "",
+                    "others": {}
+                }
+            ]
+        }
+    ]
+}

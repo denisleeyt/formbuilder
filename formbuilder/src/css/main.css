@@ -1,0 +1,9 @@
+html{
+    box-sizing: border-box;
+    background-color: aliceblue;
+}
+
+body{
+    margin: 0;
+    font-size: 24px;
+}

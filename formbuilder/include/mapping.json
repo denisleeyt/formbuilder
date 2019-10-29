@@ -1,0 +1,84 @@
+{
+    "cloumns": [
+        {
+            "name": "BettingAccount",
+            "length": 12,
+            "mid": "2"
+        },
+        {
+            "name": "MemberID",
+            "length": 20,
+            "mid": "3"
+        },
+        {
+            "name": "RefCode",
+            "length": 25
+        },
+        {
+            "name": "Mobile",
+            "length": 30
+        },
+        {
+            "name": "NameCH",
+            "length": 100,
+            "mid": "1"
+        },
+        {
+            "name": "NameEN",
+            "length": 100
+        },
+        {
+            "name": "AddressCH",
+            "length": 256,
+            "mid": "5"
+        },
+        {
+            "name": "AddressEN",
+            "length": 256
+        },
+        {
+            "name": "Email",
+            "length": 256
+        },
+        {
+            "name": "Generic1",
+            "length": 500
+        },
+        {
+            "name": "Generic2",
+            "length": 500
+        },
+        {
+            "name": "Generic3",
+            "length": 500
+        },
+        {
+            "name": "Generic4",
+            "length": 500
+        },
+        {
+            "name": "Generic5",
+            "length": 500
+        },
+        {
+            "name": "Generic6",
+            "length": 500
+        },
+        {
+            "name": "Generic7",
+            "length": 500
+        },
+        {
+            "name": "Generic8",
+            "length": 500
+        },
+        {
+            "name": "Generic9",
+            "length": 500
+        },
+        {
+            "name": "LGeneric",
+            "length": 501
+        }
+    ]
+}

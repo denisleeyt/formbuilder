@@ -1,0 +1,23 @@
+.description {
+  font-size: 14px;
+}
+
+.datetimepicker-input{
+  position: relative;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    width: 1%;
+    margin-bottom: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.datetimepickerWrapper>div:first-child {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  width: 100%;
+}

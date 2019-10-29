@@ -1,0 +1,454 @@
+/* start of FOOTER */	
+	
+.footer {
+	margin: 10px 0 10px;
+	width: 100%;
+}
+.footer_faq {
+	float: left;
+	margin: 1% 0;
+}
+.footer .footer_copyright {
+	float: right;
+	margin: 7px 0 10px;
+}
+.copyright_nextline {
+	clear: none;
+	display: inline;
+}
+.language_970 {
+	display: block;
+}
+.language_480 {
+	display: none;
+}
+.rgp_970 {
+	display: block;
+}
+.rgp_480 {
+	display: none;
+}
+.rgp_970 {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+	width: 100%;
+}
+.rgp_480 {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+	width: 100%;
+}
+.copyright11px_a {
+	color: #003366;
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: 15px;
+	text-decoration: none;
+}
+.copyright11px_2000 {
+	color: #ffffff;
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: 15px;
+	text-decoration: none;
+}
+.copyright11px_a:hover {
+	color: #003366;
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: 15px;
+	text-decoration: underline;
+}
+.copyright11px {
+	color: #003366;
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: 15px;
+	text-decoration: none;
+}
+.copyright11px:hover {
+	color: #003366;
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: 15px;
+	text-decoration: underline;
+}
+.copyright11px_gap {
+	color: #ffffff;
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-size: 12px;
+	letter-spacing: 1px;
+	line-height: 15px;
+	text-decoration: none;
+}
+.white15px {
+	color: #ffffff;
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-size: 12px;
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+.header11px_a {
+	color: #848484;
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-size: 11px;
+	letter-spacing: 0;
+	line-height: 15px;
+	text-decoration: none;
+}
+.header11px_gap {
+	color: #ffffff;
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-size: 15px;
+	letter-spacing: 4px;
+	line-height: 15px;
+	text-decoration: none;
+}
+.english11px {
+	color: #ffffff;
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-size: 11px;
+	letter-spacing: 0;
+	line-height: 15px;
+	text-decoration: none;
+}
+.english11px:hover {
+	color: #2a3981;
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-size: 11px;
+	letter-spacing: 0;
+	line-height: 15px;
+	text-decoration: underline;
+}
+.row_green {
+	background-color: #568400;
+	font-family: Arial, Helvetica, sans-serif;
+	height: 20px;
+}
+.row_blue {
+	background-color: #254fa1;
+	font-family: Arial, Helvetica, sans-serif;
+	height: 20px;
+}
+
+@media screen and (max-width: 970px) {
+.rgp_970 {
+	display: block;
+}
+.rgp_480 {
+	display: none;
+}
+.language_970 {
+	display: block;
+}
+.language_480 {
+	display: none;
+}
+.footer .footer_copyright {
+	float: left;
+	margin: 15px 0;
+}
+.footer_faq {
+	float: left;
+	margin: 2% 0 0.5%;
+}
+.chi {
+	padding: 45px 15px 0 0;
+}
+}
+
+@media (min-width: 768px) and (max-width: 970px) {
+.footer {
+	padding: 0 1%;
+	width: 98%;
+}
+.rgp_970 {
+	display: block;
+}
+.rgp_480 {
+	display: none;
+}
+.language_480 {
+	display: inline;
+}
+}
+
+@media screen and (max-width: 767px) {
+.footer {
+	padding: 0 1%;
+	width: 98%;
+}
+.language_970 {
+	display: none;
+}
+.language_480 {
+	display: inline;
+}
+}
+
+@media screen and (max-width: 480px) {
+.ewin_logo_if {
+	top: 5px;
+	margin-left: 20px;
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+}
+.rgp_970 {
+	display: none;
+}
+.rgp_480 {
+	display: block;
+	float: left;
+}
+.header_logo {
+	height: 57px;
+}
+.hkjc_logo {
+	float: left;
+	padding: 5px 0 5px 2%;
+	width: 48%;
+}
+.ewin_logo_all {
+	float: right;
+	height: auto;
+	width: 28%;
+}
+.chi {
+	height: auto;
+	padding: 30px 10px 0 20px;
+}
+.ewin_logo {
+	padding: 10px 10px 0 0;
+}
+.connet_logo {
+	padding: 10px 0 0;
+}
+.connet_logo img {
+	width: 80%;
+}
+.others {
+	display: none;
+}
+.copyright_nextline {
+	clear: both;
+	display: block;
+}
+}
+
+@media screen and (max-width: 460px) {
+.copyright_nextline {
+	clear: both;
+	display: inline;
+}
+.chi {
+	height: auto;
+	padding: 30px 10px 0 0;
+}
+}
+
+@media screen and (max-width: 320px) {
+.hkjc_logo {
+	padding: 5px 0 5px 2%;
+	width: 50%;
+}
+.ewin_logo_all {
+	width: 35%;
+}
+.ewin_logo {
+	padding: 10px 10px 0 0;
+}
+.connet_logo {
+	float: right;
+	margin-right: -20px;
+	padding: 15px 0 0;
+}
+.connet_logo img {
+	width: 70%;
+}
+.chi {
+	height: auto;
+	padding: 30px 10px 0 0;
+}
+.rgp_970 {
+	display: none;
+}
+.rgp_480 {
+	display: block;
+}
+}
+.copyright11px_a {
+	color: #003366;
+	font-family: "Arial", "Helvetica", "sans-serif", "新細明體";
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: 15px;
+	text-decoration: none;
+}
+.copyright11px {
+	color: #ffffff;
+	font-family: "Arial", "Helvetica", "sans-serif", "新細明體";
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: 15px;
+	text-decoration: none;
+}
+.copyright11px:hover {
+	color: #ffffff;
+	font-family: "Arial", "Helvetica", "sans-serif", "新細明體";
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: 15px;
+	text-decoration: underline;
+}
+.copyright11px_gap {
+	color: #ffffff;
+	font-family: "Arial", "Helvetica", "sans-serif", "新細明體";
+	font-size: 12px;
+	letter-spacing: 2px;
+	line-height: 15px;
+	text-decoration: none;
+}
+.white15px {
+	color: #ffffff;
+	font-family: "Arial", "Helvetica", "sans-serif", "新細明體";
+	font-size: 12px;
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+.header11px_a {
+	color: #848484;
+	font-family: "Arial", "Helvetica", "sans-serif", "新細明體";
+	font-size: 11px;
+	letter-spacing: 0;
+	line-height: 15px;
+	text-decoration: none;
+}
+.header11px {
+	color: #ffffff;
+	font-family: "Arial", "Helvetica", "sans-serif", "新細明體";
+	font-size: 11px;
+	letter-spacing: 0;
+	line-height: 15px;
+	text-decoration: none;
+}
+.header11px:hover {
+	color: #000000;
+	font-family: "Arial", "Helvetica", "sans-serif", "新細明體";
+	font-size: 11px;
+	letter-spacing: 0;
+	line-height: 15px;
+	text-decoration: underline;
+}
+.header11px_gap {
+	color: #ffffff;
+	font-family: "Arial", "Helvetica", "sans-serif", "新細明體";
+	font-size: 15px;
+	letter-spacing: 4px;
+	line-height: 15px;
+	text-decoration: none;
+}
+.english11px {
+	color: #2a3981;
+	font-family: "Arial", "Helvetica", "sans-serif", "新細明體";
+	font-size: 11px;
+	letter-spacing: 0;
+	line-height: 15px;
+	text-decoration: none;
+}
+.english11px:hover {
+	color: #2a3981;
+	font-family: "Arial", "Helvetica", "sans-serif", "新細明體";
+	font-size: 11px;
+	letter-spacing: 0;
+	line-height: 15px;
+	text-decoration: underline;
+}
+.row_green {
+	background-color: #568400;
+	font-family: Arial, Helvetica, sans-serif, "新細明體";
+	height: 20px;
+}
+.row_blue {
+	background-color: #254fa1;
+	font-family: Arial, Helvetica, sans-serif, "新細明體";
+	height: 20px;
+}
+.footer body, .footer div, .footer dl, .footer dt, .footer dd, .footer ul, .footer ol, .footer li, .footer h1, .footer h2, .footer h3, .footer h4, .footer h5, .footer h6, .footer pre, .footer form, .footer fieldset, .footer input, .footer textarea, .footer p, .footer blockquote, .footer th, .footer td {
+	margin: auto;
+}
+.footer ul {
+	list-style: outside none disc;
+	margin-bottom: 10px;
+	padding-left: 40px;
+}
+.footer-container > .container {
+	width: 100%;
+	background: #414140;
+	margin-bottom: 0px;
+}
+.footer-container > .container .footer {
+	max-width: 1140px;
+	margin: 10px auto 5px;
+}
+
+@media all and (max-width: 767px) {
+.rgp-container ul li {
+	font-size: 0.8em !important;
+}
+}
+
+@media (min-width: 970px) and (max-width: 1120px) {
+.footer-container > .container .footer {
+	max-width: 940px;
+}
+}
+div.footer-projectlist div#nextrace {
+	width: 100%;
+	background: none repeat scroll 0 0 rgba(4, 4, 4, 6);
+}
+.footerProjectList {
+	width: 100%;
+	background: none repeat scroll 0 0 #414140;
+	background-color: #414140;
+}
+div.footerProjectList .container #nextrace #attractions {
+	padding-left: 0;
+}
+div.footerProjectList .container div#nextrace {
+	background: transparent;
+	background-color: transparent;
+}
+div.footerProjectList .container {
+	padding: 0;
+	background-color: #414140;
+}
+#nextrace #attractions {
+	margin-left: 15px;
+	color: #ffffff !important;
+}
+.langToggle.top {
+	float: left;
+	position: absolute;
+	margin: 25px 0 0 -25px;
+}
+.hkjcLogo {
+	display: block;
+	margin: 10px 0 0 0px;
+	position: absolute;
+	z-index: 9999;
+}
+.footer-bar {
+	background-color: #656565;
+	padding: 10px;
+	margin: 0;
+	width: 100%;
+}
+/* end of FOOTER */
